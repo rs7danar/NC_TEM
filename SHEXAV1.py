@@ -1,4 +1,3 @@
-
 # code by Yayan XD
 # my facebook ( https://www.facebook.com/KM39453 )
 
@@ -29,28 +28,31 @@ import requests, os, re, bs4, sys, json, time, random, datetime, subprocess
 from concurrent.futures import ThreadPoolExecutor as YayanGanteng
 from datetime import datetime
 from bs4 import BeautifulSoup
-ct = datetime.now()
-id = "|".join(uuid)
-
-  print("\n\n\x1b[37;1m  YOUR ID : \033[94m"+id) 
-
-  try: 
-
-    httpCaht = requests.get("https://github.com/Kaewankarzan/NC_TEM/blob/main/ID.txt").text 
-
-    if id in httpCaht: 
-
-      print("\033[92m  YOUR ID IS ACTIVE.........\033[97m") 
-
-      msg = str(os.geteuid()) 
-
-      time.sleep(1) 
-
-      pass 
-
-    else: 
-
-      print("\033[0;96m Id kat active nya Tkaya bo Active krdn NAME bnera bo telegram @SHEXA_CRACK")
+pretty.install()
+CON=sol()
+#DATE AND TIME
+now = datetime.now()
+dt_string = now.strftime("%H:%M")
+current = datetime.now()
+ta = current.year
+bu = current.month
+ha = current.day
+def I():
+    idd = str(os.getlogin())
+    id = '-'.join(idd)
+    print("\x1b[37;1mYOUR ID:\x1b[1;91m "+id)
+    if id in requests.get("https://raw.githubusercontent.com/Kaewankarzan/NC_TEM/main/Id.txt").text:
+        print("\033[92m YOUR ID IS ACTIVE .....")
+        time.sleep(1)
+        pass
+    else:
+        print("\033[91m BO ACTIVE KRDNE IDYAKAT NAMA BNERA @SHEXA_CRACK")
+        os.system('xdg-open https://t.me/codeb4z')
+        print("\033[91m JOINE CHANALL BKAN ")
+        os.system('xdg-open https://t.me/team12099')
+        time.sleep(1)
+        sys.exit()
+I()
 ### WARNA RANDOM ###
 P = '\x1b[1;97m' # PUTIH
 M = '\x1b[1;91m' # MERAH
